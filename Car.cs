@@ -12,6 +12,8 @@ namespace Lab_2_Threads
         public double Speed { get; set; }
         public double DrivenLength { get; set; }
 
+        //Constructor setting base values for car
+        //As well as requiring a name when creating new object
         public Car(string name) 
         {
             Name = name;
